@@ -60,5 +60,10 @@ namespace AzureStorageVersioner
 
       blobClient.SetServiceProperties(serviceProperties);
     }
+
+    private void SetDefaultLink_Click(object sender, RoutedEventArgs e)
+    {
+      DefaultServiceVersion.Text = "2014-02-14";
+    }
   }
 }
