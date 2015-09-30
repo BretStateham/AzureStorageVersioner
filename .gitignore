@@ -18,6 +18,14 @@ $RECYCLE.BIN/
 *.lnk
 
 # =========================
+# Visual Studio
+# =========================
+bin
+obj
+packages
+*.suo
+
+# =========================
 # Operating System Files
 # =========================
 
